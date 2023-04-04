@@ -444,7 +444,7 @@ int main() {
 							 }else if (p==head){ //欲刪除資料在head時 
 							 	head=p->readcptr();
 							 }
-			 				cout<<endl<<"該筆資料已成公刪除"<<endl<<endl; //輸入功會有錯誤訊息 
+			 				cout<<endl<<"該筆資料已成功刪除"<<endl<<endl;  
 			 				a--;
 			 			}else{
 			 				cout<<endl<<"該筆資料不存在，無法刪除"<<endl<<endl; 
@@ -500,7 +500,7 @@ int main() {
 							 }else if (p1==head1){ //欲刪除資料在head時 
 							 	head1=p1->readpptr();
 							 }
-			 				cout<<endl<<"該筆資料已成公刪除"<<endl<<endl; //輸入功會有錯誤訊息 
+			 				cout<<endl<<"該筆資料已成功刪除"<<endl<<endl;  
 			 				a1--;
 			 			}else{
 			 				cout<<endl<<"該筆資料不存在，無法刪除"<<endl<<endl; 
